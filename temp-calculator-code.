@@ -45,13 +45,13 @@ if num==3:
     num_10=int(input("1.fahrenhit 2.celeus [1/2]:"))
     # cunvershun from fahrenhit to kelvin
     if num_10==1:
-        num_11=num_0-273.15
+        num_11=(num_0-273.15)*9/5+32
         num_12=round(num_11,1)
         print("the convershun to kelvin is")
         print (num_12,"K")
     # cunvershun from celeus to kelvin
     if num_10==2:
-        num_13=(num_0-273.15)*9/5+32
+        num_13=num_0-273.15
         num_14=round(num_13,1)
         print("the convershun to kelvin is")
         print(num_14,"K")
