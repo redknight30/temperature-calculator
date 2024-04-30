@@ -15,13 +15,13 @@ if num==1:
     # cunvershun from fahrenhit to celeus 
     if num_2==2:
         num_3=(num_0-32)*(5/9)
-        total_0=round(num_3,1)
+        total_0=round(num_3,2)
         print("the convershun to celeus is")
         print(total_0,"C")
     # cunvershun from kelvin to celeus 
     if num_2==1:
-        num_4=num_0+273.15
-        total_1=round(num_4,1)
+        num_4=num_0-273.15
+        total_1=round(num_4,2)
         print("the convershun to celeus is")
         print(total_1,"C")
 # FAHRENHIT
@@ -31,13 +31,13 @@ if num==2:
     if num_5==2:
         print("the convershun to fahrenhit is")
         num_6=(num_0*9/5)+32
-        total=round(num_6,1)
+        total=round(num_6,2)
         print (total,"F")
     # cunvershun from kelvin to fahrenhit
     if num_5==1:
         num_7=(num_0-32)*5
         num_8=(num_7/9)+273.15
-        num_9=round(num_8,1)
+        num_9=round(num_8,2)
         print("the convershun to fahrenhit is")
         print(num_9,"F")
 # KELVIN
@@ -46,12 +46,12 @@ if num==3:
     # cunvershun from fahrenhit to kelvin
     if num_10==1:
         num_11=(num_0-273.15)*9/5+32
-        num_12=round(num_11,1)
+        num_12=round(num_11,2)
         print("the convershun to kelvin is")
         print (num_12,"K")
     # cunvershun from celeus to kelvin
     if num_10==2:
-        num_13=num_0-273.15
-        num_14=round(num_13,1)
+        num_13=num_0+273.15
+        num_14=round(num_13,2)
         print("the convershun to kelvin is")
         print(num_14,"K")
