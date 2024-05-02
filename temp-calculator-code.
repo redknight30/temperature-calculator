@@ -6,7 +6,7 @@ print ('''
 3=kelven
  ''')
 num_0=float(input("type a number to be coverted to celeus,fahrenhit, and kelvin:"))
-num=float(input("celeus,fahrenhit,kelvin [1/2/3}"))
+num=float(input("celeus,fahrenhit,kelvin [1/2/3]"))
 # MATH
 
 # CELEUS
